@@ -1,0 +1,21 @@
+{
+  "name": "dsa-basic",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000D\u0000S\u0000A\u0000-\u0000b\u0000a\u0000s\u0000i\u0000c\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoumaySoni/DSA-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoumaySoni/DSA-basic/issues"
+  },
+  "homepage": "https://github.com/SoumaySoni/DSA-basic#readme"
+}
