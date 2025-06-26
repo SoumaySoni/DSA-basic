@@ -62,18 +62,17 @@ function reverseString(s) {
 // Leet Code --> 121. Best Time to Buy and Sell Stock
 
 function maxProfit (prices) {
-    let minPrice = Infinity;
-    let maxProfit = 0;
-
-    for (let price of prices) {
-        if (price < minPrice) {
-            minPrice = price; 
-        } else {
-            maxProfit = Math.max(maxProfit, price - minPrice); 
+    let profit = 0;
+    let min = prices[0];
+    for(let i=1;i<prices.length ; i++){
+        if((prices[i] - min) > profit){
+         profit = prices[i] - min;
         }
+         if(prices[i] < min){
+            min = prices[i];
+         }
     }
-
-    return maxProfit;
+    return profit;
 };
 
 console.log(maxProfit([7, 1, 5, 3, 6, 4]))
